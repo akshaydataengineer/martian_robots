@@ -64,19 +64,6 @@ LLFFFLFLFL
 Exception handling and logging is not considered in scope due to timeline
 
 
-###### How to Run this code
-
-1. Prepare input file that contains max plane size, initial point and movement command. 
-   Sample input file is accessible in folder /test/files/input_data.json
-
-2. Run the below command to use the input file and write output to file. 
-   Python3 main.py -i <inputfile> -o <outputfile>
-
-   e.g. 
-   Python3  src/main.py -i FOLDER_PATH/martian_robots/test/files/input_data.json -o FOLDER_PATH/martian_robots/test/files/output_data.json
-
-3. Review the results in output file. 
-
 ### Code Strecture
 
 #### Folder: src 
@@ -97,6 +84,19 @@ Below is the file description under src folder.
 #### Folder: test 
 
 This folder contaons test cases and sample data files used to perfomr testing. 
+
+#### How to Run this code
+
+1. Prepare input file that contains max plane size, initial point and movement command. 
+   Sample input file is accessible in folder /test/files/input_data.json
+
+2. Run the below command to use the input file and write output to file. 
+   Python3 main.py -i <inputfile> -o <outputfile>
+
+   e.g. 
+   Python3  src/main.py -i FOLDER_PATH/martian_robots/test/files/input_data.json -o FOLDER_PATH/martian_robots/test/files/output_data.json
+
+3. Review the results in output file. 
 
 ###### Sample Input
 {
