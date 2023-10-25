@@ -1,0 +1,52 @@
+{
+  "input": [
+    {
+      "id": "input-1",
+      "max_plane_size": "5 3",
+      "robot_movement_input": [
+        {
+          "initial_point": "1 1 E",
+          "command_sequence": "RFRFRFRF"
+        },
+        {
+          "initial_point": "3 2 N",
+          "command_sequence": "FRRFLLFFRRFLL"
+        },
+        {
+          "initial_point": "0 3 W",
+          "command_sequence": "LLFFFLFLFL"
+        }
+      ]
+    },
+    {
+      "id": "input-2",
+      "max_plane_size": "5 A",
+      "robot_movement_input": [
+        {
+          "initial_point": "1 1 E",
+          "command_sequence": "RFRFRFRF"
+        }
+      ]
+    },
+    {
+      "id": "input-3",
+      "max_plane_size": "5 5",
+      "robot_movement_input": [
+        {
+          "initial_point": "1 1 AX",
+          "command_sequence": "RFRFRFRF"
+        }
+      ]
+    },
+    {
+      "id": "input-4",
+      "max_plane_size": "5 5",
+      "robot_movement_input": [
+        {
+          "initial_point": "1 1 E",
+          "command_sequence": "RFRFXXXXXXX"
+        }
+      ]
+    }
+  ]
+}

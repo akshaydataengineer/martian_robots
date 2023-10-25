@@ -1,0 +1,32 @@
+[
+   {
+      "id": "input-1",
+      "error_msg": [],
+      "robot_last_location": [
+         "1 1 E",
+         "3 3 N LOST",
+         "2 3 S"
+      ]
+   },
+   {
+      "id": "input-2",
+      "error_msg": [
+         "unexpected value for input max_plane_size: 5 A"
+      ],
+      "robot_last_location": []
+   },
+   {
+      "id": "input-3",
+      "error_msg": [
+         "unexpected value for input initial_point: 1 1 AX"
+      ],
+      "robot_last_location": []
+   },
+   {
+      "id": "input-4",
+      "error_msg": [
+         "unexpected value for input command_sequence: RFRFXXXXXXX"
+      ],
+      "robot_last_location": []
+   }
+]
