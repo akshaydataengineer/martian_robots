@@ -91,7 +91,8 @@ This folder contaons test cases and sample data files used to perfomr testing.
    Sample input file is accessible in folder /test/files/input_data.json
 
 2. Run the below command to use the input file and write output to file. 
-   Python3 main.py -i <inputfile> -o <outputfile>
+
+    Python3 main.py -i <inputfile> -o <outputfile>
 
    e.g. 
    Python3  src/main.py -i FOLDER_PATH/martian_robots/test/files/input_data.json -o FOLDER_PATH/martian_robots/test/files/output_data.json
