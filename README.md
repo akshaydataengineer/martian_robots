@@ -77,6 +77,27 @@ Exception handling and logging is not considered in scope due to timeline
 
 3. Review the results in output file. 
 
+### Code Strecture
+
+#### Folder: src 
+
+Below is the file description under src folder. 
+1. constants/input_tag.py -> Enum to store the tag value of JSON file
+2. constants/instuction.py -> Enum to store the instruction value such as L, R, F
+3. constants/rientation.py -> Enum to store the orientation info such as N, S, W , E
+4. common/file_operation.py -> function to read and write data into files 
+5. common/parser.py -> function to parse input data and validate it 
+6. common/validation.py -> function to validate data and check if robot is moving out of edge. 
+7. common/robot_movement.py -> function identify robot movement direction and find next orientation. 
+8. common/position.py -> class defination to store coordinate and orientation information.
+9. common/command.py -> Function to store teh overall logic flow against instruction execution and result storage.
+10. main.py -> Entry point to execute the program. 
+
+
+#### Folder: test 
+
+This folder contaons test cases and sample data files used to perfomr testing. 
+
 ###### Sample Input
 {
   "input": [
